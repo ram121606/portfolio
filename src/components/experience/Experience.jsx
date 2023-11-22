@@ -55,13 +55,6 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Pandas</h4>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
                 <h4>Machine Learning</h4>
                 <small className="text-light"></small>
               </div>
@@ -80,13 +73,6 @@ const Experience = () => {
                 <small className="text-light"></small>
               </div>
             </article>
-            {/* <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Solidity</h4>
-                <small className="text-light"></small>
-              </div>
-            </article> */}
           </div>
         </div>
         <div className="experience__web3">
