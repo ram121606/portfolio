@@ -1,5 +1,4 @@
 header {
-  /* height: 150vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -8,8 +7,6 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 
 /* ===================== CTA ===================== */

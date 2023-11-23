@@ -9,10 +9,6 @@ const Nav = () => {
 
   const handleNav = (to) => {
     setActiveNav(to);
-    // console.log(window.history)
-    // window.history.replaceState(null, '', '#')
-    // window.history.back()
-    // console.log(window.location)
   };
 
   return (

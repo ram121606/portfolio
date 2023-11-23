@@ -52,7 +52,6 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>My Recent Work</h2>
       <br></br>
-      {/* <h2>Full-stack Login page</h2> */}
 
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github }) => {
@@ -66,9 +65,6 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   GitHub
                 </a>
-                {/* <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a> */}
               </div>
             </article>
           );

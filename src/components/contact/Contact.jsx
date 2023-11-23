@@ -20,7 +20,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          // console.log(result);
+        
           if (result.status === 200) {
             NotificationManager.success("Message sent successfully");
           }
@@ -38,19 +38,10 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          {/* <article className="contact__option">
-            <TfiEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            {/* <h5>Ramasubramanyam</h5> */}
-            {/* <a href="mailto:ramasubramanyam12@gmail.com" target="_blank">
-              Send a message
-            </a>
-          </article> */} 
 
           <article className="contact__option">
             <FaDiscord className="contact__option-icon" />
             <h4>Discord</h4>
-            {/* <h5>Ramasubramanayam</h5> */}
             <a href="https://discord.com/channels/@Ramasubramanayam#2049" target="_blank">
               Send a message
             </a>
@@ -59,7 +50,6 @@ const Contact = () => {
           <article className="contact__option">
             <FaWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            {/* <h5>+91 9500619612 </h5> */}
             <a
               href="https://api.whatsapp.com/send?phone=9500618612"
               target="_blank"
@@ -68,7 +58,6 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
